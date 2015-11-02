@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView android:text="Jabir Ibne Kamal"
+        android:textSize="40dp"
+        android:textColor="#871d10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:src="@drawable/pro_pic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fb_logo"
+            android:onClick="fb"
+            android:background="@null"
+            android:id="@+id/imageButton"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:src="@drawable/gp"
+            android:onClick="gp"
+            android:background="@null"
+            android:id="@+id/imageButton2"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/li"
+
+            android:background="@null"
+            android:onClick="li"
+            android:id="@+id/imageButton3" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
